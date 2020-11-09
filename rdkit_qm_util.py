@@ -1,6 +1,7 @@
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from collections import defaultdict
+from rdkit.Chem import rdDistGeom
 
 import matplotlib.pyplot as plt
 import subprocess
